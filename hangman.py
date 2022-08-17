@@ -64,7 +64,6 @@ class Hangman:
         self.word=list(self.word)
         self.sol=["_" for i in range(len(self.word))]
         self.finished=False
-
         self.wrongs=6
 
 
