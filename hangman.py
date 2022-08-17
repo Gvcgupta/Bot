@@ -60,8 +60,7 @@ class Hangman:
     ''']
 
     def __init__(self):
-        #self.word=random.choice(list(english_words_lower_alpha_set))
-        self.word="hello"
+        self.word=random.choice(list(english_words_lower_alpha_set))
         self.word=list(self.word)
         self.sol=["_" for i in range(len(self.word))]
         self.finished=False
