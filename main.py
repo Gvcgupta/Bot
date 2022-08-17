@@ -2,8 +2,6 @@ from hangman import Hangman
 
 hang=Hangman()
 
-
-
 while hang.wrongs>=0:
 
     hang.ask(hang.sol,hang.word)
